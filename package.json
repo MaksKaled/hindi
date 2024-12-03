@@ -1,0 +1,19 @@
+{
+  "name": "hindi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build":"echo 'running build script'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "mocha": "^11.0.1"
+  }
+}
