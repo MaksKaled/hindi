@@ -10,6 +10,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 // Устанавливаем зависимости проекта
+                sh 'sudo apt install npm'
                 sh 'npm install'
             }
         }
